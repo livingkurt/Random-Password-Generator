@@ -1,0 +1,114 @@
+* {
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+
+html {
+    background-color: rgb(236, 236, 236); 
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+
+}
+
+hr {
+    background-color: rgb(194, 194, 194); 
+    height: 1px; 
+    border: 0;
+}
+
+.button_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#content {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#password_generator_h {
+    font-size: 25px;
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    border-radius: 5px;
+    border: rgb(194, 194, 194) dashed 1px;
+    resize: none;
+    white-space: normal;
+    text-align: justify;
+    text-align-last: center;
+    padding: 10px;
+}
+
+#generate_password_b {
+    background-color: #99251d;
+    
+}
+
+#copy_to_clipboard_b {
+    background-color: rgb(194, 194, 194);
+    
+}
+
+.buttons {
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    color: white;
+}
+
+/* #header_sub_container {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+    width: 80%;
+    padding: 0px 10%;
+} */
+
+/* .container {
+    display: grid;
+    grid-template-areas: 
+    ". a . "
+    ". b .  " 
+    ". c . " 
+    ". d . " 
+    ;
+    grid-template-columns: 37% 25% 37%;
+    grid-template-rows: 50px 50px 100px 50px;
+    grid-gap: 20px;
+    justify-items: center;
+} */
+
+
+/* Password Generator */
+/* #item-one {
+    grid-area: a;
+} */
+/* Generate a Password */
+/* #item-two {
+    grid-area: b;
+} */
+/* textarea */
+/* #item-three {
+    grid-area: c;
+} */
+/* Generate Password */
+/* #item-four {
+    grid-area: d;
+} */
+/* Copy to Clipboard */
+/* #item-five {
+    grid-area: e;
+} */
