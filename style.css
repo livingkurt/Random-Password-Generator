@@ -34,7 +34,8 @@ hr {
 }
 
 #password_generator_h {
-    font-size: 25px;
+    font-size: 50px;
+    
 }
 
 #heading {
@@ -50,6 +51,8 @@ textarea {
     text-align: justify;
     text-align-last: center;
     padding: 10px;
+    font-size: 20px;
+    color: rgb(121, 121, 121);
 }
 
 #generate_password_b {

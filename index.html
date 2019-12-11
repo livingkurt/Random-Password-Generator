@@ -24,12 +24,12 @@
                 </div>
                 <hr>
                 <div class="sub_container">
-                    <textarea name="" placeholder="Your Secure Password"id="" cols="75" rows="8"></textarea>
+                    <textarea name="password_area" placeholder="Your Secure Password"id="password_area" cols="50" rows="3"></textarea>
                 </div>
                 <hr>
                 <div class="button_container">
-                    <button class="buttons"id="generate_password_b" onclick="generate_password()">Generate Password</button>
-                    <button class="buttons"id="copy_to_clipboard_b">Copy to Clipboard</button>
+                    <button class="buttons"id="generate_password_b" onclick="generate_password(password_length_pref,special_char_pref,numbers_pref,lowercase_pref,uppercase_pref)">Generate Password</button>
+                    <button class="buttons"id="copy_to_clipboard_b"onclick="myFunction()">Copy to Clipboard</button>
                 </div>
             </div>
         </div>
