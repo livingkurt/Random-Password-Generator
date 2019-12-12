@@ -71,7 +71,7 @@ function generate_password(a, b, c, d, e) {
     }
     console.log(password_rand_length)
     //Places the password in the textarea
-    document.getElementById("password_area").innerHTML = password_rand_length;
+    document.getElementById("password_area").value = password_rand_length;
     // document.getElementsByTagName("p").innerHTML = password_rand_length;
 }
 
