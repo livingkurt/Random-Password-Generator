@@ -34,5 +34,5 @@ A alert will show confirming that the password was copied to clipboard correctly
 
 ### Image Below
 
-![Password Generator](images/Password_Generator.png)
+![Password Generator](assets/images/Password_Generator.png)
 
