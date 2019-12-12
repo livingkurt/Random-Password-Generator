@@ -13,6 +13,7 @@ html {
 section {
     display: flex;
     justify-content: center;
+    
 
 }
 
@@ -125,7 +126,7 @@ textarea {
 
 
 
-  
+
 
 
 @media screen and (max-width: 536px) {
@@ -151,13 +152,10 @@ textarea {
     #heading{
         width: 100%;
         font-size: 30px;
-        /* margin: 0px 54px !important; */
     }
     #password_generator_h{
-        /* width: 100%; */
         margin-top: 10px;
         font-size: 30px;
-        /* margin: 0px 54px !important; */
     }
 }
 
@@ -176,9 +174,7 @@ textarea {
         margin: 0px auto !important;
     }
     #password_generator_h{
-        /* width: 100%; */
         font-size: 30px;
-        /* margin: 0px 54px !important; */
     }
     .buttons {
         font-size: 12px;
