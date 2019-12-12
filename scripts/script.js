@@ -1,5 +1,5 @@
 // Prompting User for Information
-var password_length_pref = prompt("Length of Password?\nMust Be between 8 - 20 Characters")
+var password_length_pref = prompt("Length of Password?\nMust Be between 8 - 128 Characters")
 var special_char_pref = confirm("Special Characters?")
 var numbers_pref = confirm("Numbers?")
 var lowercase_pref = confirm("Lowercase Letters")
@@ -12,7 +12,7 @@ var upper_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 var lower_letters = upper_letters.toLowerCase()
 
 //Determines whether there is a qualifying number in the password length prompt
-if (password_length_pref == null || password_length_pref < 8 || password_length_pref > 20) {
+if (password_length_pref == null || password_length_pref < 8 || password_length_pref > 128) {
     alert("You need to choose a password length within the specificatinos to continue")
     location.reload();
 }
