@@ -48,17 +48,17 @@ function generate_password(a, b, c, d, e) {
         if (d == true) { //If User chose uppercase letters
             for (var i = 0; i < a; i++) { //Loop Through the uppercase list the user specified amount
                 //Choose randomly from list specified
-                var upper_letters_rand = upper_letters[Math.floor(Math.random()*upper_letters.length)];
+                var lower_letters_rand = lower_letters[Math.floor(Math.random()*lower_letters.length)];
                 //Add random characters to initialized variable outside of the for loop
-                password = password + upper_letters_rand
+                password = password + lower_letters_rand
             }
         }
         if (e == true) { //If User chose lowercase letters
             for (var i = 0; i < a; i++) { //Loop Through the lower case list the user specified amount
                 //Choose randomly from list specified
-                var lower_letters_rand = lower_letters[Math.floor(Math.random()*lower_letters.length)];
+                var upper_letters_rand = upper_letters[Math.floor(Math.random()*upper_letters.length)];
                 //Add random characters to initialized variable outside of the for loop
-                password = password + lower_letters_rand
+                password = password + upper_letters_rand
             }
         }
     }
@@ -90,3 +90,4 @@ function copy_to_clipboard() {
     alert("Copied to Clipboard\n"+ copyText.value);
   }
 
+  
